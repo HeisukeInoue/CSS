@@ -73,13 +73,13 @@ table {
 thead {
     background-color:#0078d4;
     color:white;
-    border-bottom: 1px;
+    border-bottom: 1px solid;
 }
 
 tr, td {
     text-align: left;
     padding: 20px;
-    border-bottom: solid;
+    border-bottom: 1px solid;
     border-left: none;
     border-right: none;
     border-color: #ddd;
