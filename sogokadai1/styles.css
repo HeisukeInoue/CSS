@@ -1,7 +1,6 @@
 body {
-background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
-
 
 .wholepage {
     height:100vh;
@@ -18,24 +17,27 @@ background-color: #f7f7f7;
 }
 
 .profilecard {
-    background-color:#fff; 
-    border-radius: 10px;                
-    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0);    
-    text-align: center;               
-    padding: 20px;                
-    width: 300px;                
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
 }
 
 .profileimage {
-    background-color:rgb(173, 173, 173); 
-    border-radius: 50%;                
-    height: 100px; 
-    width: 100px;      
-    margin: auto;      
-    
-    background-image: url('https://ogre.natalie.mu/artist/233/20210512/main_web.jpg?imwidth=640&imdensity=1'); /* 画像のパスを指定 */
-    background-size: cover; /* 画像をdivのサイズに合わせる */
-    background-position: center; /* 画像を中央に配置 */
+    background-color:rgb(173, 173, 173);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 h1 {
@@ -49,9 +51,9 @@ p {
 }
 
 .information {
-    width: 80%;               
-    max-width: 800px;                
-    text-align: center;             
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
 }
 
 h2 {
@@ -60,21 +62,21 @@ h2 {
 }
 
 table {
-    width:100%;                    
-    border-collapse: collapse;     
-    background-color:#fff;         
-    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .5);      
-    border-radius: 10px;                           
-    overflow: hidden;                    
+    width:100%;
+    border-collapse: collapse;
+    background-color:#fff;
+    box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 thead {
-    background-color:#0078d4; 
-    color:white;  
+    background-color:#0078d4;
+    color:white;
     border-bottom: 1px;
 }
 
-td, th {
+tr, td {
     text-align: left;
     padding: 20px;
     border-bottom: solid;
@@ -86,4 +88,3 @@ td, th {
 tbody:hover{
     background-color:#f2f2f2;
 }
-
