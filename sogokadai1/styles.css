@@ -1,0 +1,91 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.wholepage {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.profile {
+  margin-bottom: 40px;
+}
+
+.profilecard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+
+.profileimage {
+  background-color: rgb(173, 173, 173);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  background-position: center;
+}
+
+.hiraiken {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.job {
+  font-size: 16px;
+  color: #666;
+}
+
+.information {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.skillset {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-1 {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: inset 0 2px 2px 0 rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tablehead {
+  background-color: #0078d4;
+  color: white;
+  border-bottom: 1px solid;
+}
+
+.thead-1,
+.tdata-1 {
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px solid;
+  border-left: none;
+  border-right: none;
+  border-color: #ddd;
+}
+
+.raw-data:hover {
+  background-color: #f2f2f2;
+}
