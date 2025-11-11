@@ -81,7 +81,7 @@ table {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-td {
+th,td {
   text-align: center;
   padding-top: 12px;
   padding-bottom: 12px;
