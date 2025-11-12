@@ -1,0 +1,165 @@
+.container {
+  border: 1px solid;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+header {
+  border: 1px solid;
+  height: 25%;
+  align-content: center;
+}
+
+main {
+  height: 50%;
+}
+
+.contents-one {
+  height: 50%;
+  display: flex;
+  gap: 20px;
+}
+
+/*以下contents-one内のアイテム*/
+.contents-A,.contents-B {
+  width: 50%;
+  border: 1px solid;
+  align-content: center;
+  margin-bottom: 20px;
+}
+
+.contents-two {
+  display: flex;
+  height: 50%;
+  gap: 20px;
+}
+
+.first {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+
+/*以下.first内のアイテム*/
+.contents-1,.contents-2 {
+  border: 1px solid;
+  width: 50%;
+  align-content: center;
+}
+
+.second {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+
+/*以下.second内のアイテム*/
+.contents-3,.contents-4 {
+  border: 1px solid;
+  width: 50%;
+  align-content: center; 
+}
+
+footer {
+  border: 1px solid;
+  height: 25%;
+  align-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+  header {
+    height: 20%;
+  }
+
+  main {
+    height: 60%;
+  }
+
+  .contents-one {
+    height: 33%;
+  }
+
+  /*以下contents-one内のアイテム*/
+  .contents-A,.contents-B {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contents-two {
+    flex-direction: column;
+    height: 67%;
+  }
+
+  .first {
+    height: 50%;
+    width: 100%;
+  }
+
+  .second {
+    height: 50%;
+    width: 100%;
+  }
+
+  footer {
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    height: 12.5%;
+  }
+
+  main {
+    height: 75%;
+  }
+
+  .contents-one {
+    height: 33%;
+    flex-direction: column;
+  }
+
+  /*以下contents-one内のアイテム*/
+  .contents-A {
+    margin-bottom: 0px;
+  }
+
+  .contents-A,.contents-B {
+    width: 100%;
+    height: 50%;
+  }
+
+  .contents-two {
+    flex-direction: column;
+    height: 67%;
+  }
+
+  .first {
+    flex-direction: column;
+  }
+
+  /*以下.first内のアイテム*/
+  .contents-1,.contents-2 {
+    width: 100%;
+    height: 50%;
+  }
+
+  .second {
+    flex-direction: column;
+  }
+
+  /*以下.second内のアイテム*/
+  .contents-3,.contents-4 {
+    width: 100%;
+    height: 50%;
+  }
+
+  footer {
+    height: 12.5%;
+  }
+}
