@@ -8,14 +8,18 @@
   height: 100vh;
 }
 
-.header {
+header {
   border: 1px solid;
   height: 25%;
   align-content: center;
 }
 
+main {
+  height: 50%;
+}
+
 .contents-one {
-  height: 25%;
+  height: 50%;
   display: flex;
   gap: 20px;
 }
@@ -25,11 +29,12 @@
   width: 50%;
   border: 1px solid;
   align-content: center;
+  margin-bottom: 20px;
 }
 
 .contents-two {
   display: flex;
-  height: 25%;
+  height: 50%;
   gap: 20px;
 }
 
@@ -59,19 +64,23 @@
   align-content: center; 
 }
 
-.footer {
+footer {
   border: 1px solid;
   height: 25%;
   align-content: center;
 }
 
 @media screen and (max-width: 1279px) {
-  .header {
+  header {
     height: 20%;
   }
 
+  main {
+    height: 60%;
+  }
+
   .contents-one {
-    height: 20%;
+    height: 33%;
   }
 
   /*以下contents-one内のアイテム*/
@@ -83,7 +92,7 @@
 
   .contents-two {
     flex-direction: column;
-    height: 40%;
+    height: 67%;
   }
 
   .first {
@@ -96,22 +105,30 @@
     width: 100%;
   }
 
-  .footer {
+  footer {
     height: 20%;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .header {
+  header {
     height: 12.5%;
   }
 
+  main {
+    height: 75%;
+  }
+
   .contents-one {
-    height: 25%;
+    height: 33%;
     flex-direction: column;
   }
 
   /*以下contents-one内のアイテム*/
+  .contents-A {
+    margin-bottom: 0px;
+  }
+
   .contents-A,.contents-B {
     width: 100%;
     height: 50%;
@@ -119,7 +136,7 @@
 
   .contents-two {
     flex-direction: column;
-    height: 50%;
+    height: 67%;
   }
 
   .first {
@@ -142,7 +159,7 @@
     height: 50%;
   }
 
-  .footer {
+  footer {
     height: 12.5%;
   }
 }
