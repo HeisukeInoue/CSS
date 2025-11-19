@@ -55,7 +55,7 @@ body {
   margin: 5px 0 0px ; 
 }
 
-.navi:hover, .instalogo:hover{ 
+.navi:hover,.instalogo:hover{ 
 	opacity: 0.5;
 }
 
@@ -136,6 +136,7 @@ body {
 /*ここからNews*/
 .main_news {
   max-width: 960px;
+  margin: auto;
 }
 
 .main_news-information {
@@ -169,6 +170,7 @@ body {
 /*ここからContact*/
 .main_contact {
   max-width: 960px;
+  margin: auto;
 }
 
 .head-contact {
@@ -201,7 +203,7 @@ body {
   border: 1px solid #c8c8c8;
 }
 
-.area.first, .area.second {
+.area.first,.area.second {
   height: 43px;
 }
 
@@ -267,7 +269,7 @@ body {
 
 /*ここから画像*/
   .main_bigimage-pc { 
-  display: none; /*スマホ画面では非表示*/
+    display: none; /*スマホ画面では非表示*/
   }
 
   .main_bigimage-sp {
